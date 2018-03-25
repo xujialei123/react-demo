@@ -1,0 +1,28 @@
+
+
+.home .app-classify {
+    background-color: #fff;
+    padding: 15px 0;
+
+    .classify-item {
+        width: 25%;
+        height: 100%;
+        margin: 8px 0;
+        text-align: center;
+        display: inline-block;
+
+
+        img{
+            width: 40px;
+
+        }
+
+        p{
+            font-size: 12px;
+            text-align: center;
+            color: #323232;
+        }
+
+    }
+
+}

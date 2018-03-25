@@ -1,0 +1,37 @@
+
+
+.titleBar{
+    background: #282828;
+    width: auto;
+    height: 49px;
+    line-height: 49px;
+    font-size: 15px;
+    color: #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    top: 0;
+
+    .controlLogo {
+        float: left;
+        width: 48px;
+        text-align: center;
+        border-right: 1px solid #222;
+        box-shadow: 1px 0 1px #363636;
+        color: #999;
+    }
+
+    .titleName {
+        margin-left: 3%;
+    }
+
+    .userCenter {
+        float: right;
+        width: 48px;
+        text-align: center;
+        color: #999;
+    }
+
+}

@@ -1,0 +1,61 @@
+.goods{
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 320px;
+    .title{
+        height: 33px;
+        background-color: #f2f2f2;
+        line-height: 33px;
+        font-size: 13px;
+        text-align: center;
+        color: #323232;
+        margin-bottom: -5px;
+    }
+    .items{
+        background-color: #f2f2f2;
+        min-height: 510px;
+        padding-right: 10px;
+        padding-left: 10px;
+        .item-box{
+            .item{
+                    position: relative;
+                    float: left;
+                    width: 50%;
+                    text-align: center;
+                    padding:0 2.5px;
+                    padding-top: 5px;
+                    .item-info{
+                        display: inline-block;
+                        width: 100%;
+                        background: #fff;
+                        .name{
+                            font-size: 12px;
+                            height: 34px;
+                            color: #323232;
+                            text-align: left;
+                            padding-left: 6px;
+                        }
+                        .content{
+                                text-align: left;
+                                 padding-bottom: 10px;
+                                 .price{
+                                     font-size: 13px;
+                                    color: #ff5000;
+                                    padding-left: 6px;
+                                 }
+                                 .number{
+                                     font-size: 9px;
+                                    color: #999;
+                                    margin-left: 15px;
+                                 }
+                        }
+                    }
+
+            }
+            .item::before,.item::after{
+                content: "";
+                display: table;
+            }
+        }
+    }
+}

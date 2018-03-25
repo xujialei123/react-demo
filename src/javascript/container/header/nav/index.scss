@@ -1,0 +1,67 @@
+
+
+.app-header-nav {
+    position: fixed;
+    top: 0;right: 0;left: 0;z-index:100;
+
+
+    .nav {
+        position: absolute;
+        width: 100%;
+        z-index: 200;
+
+        .nav-list {
+            position: fixed;
+            top: 49px;            
+            bottom: 0;
+            width: 60%;
+            border-top: 1px solid #222;
+            background: #282828;
+            z-index: 200;
+
+            li {
+                line-height: 50px;
+                padding: 0 6%;
+                border-bottom: 1px dotted #333;
+
+                a{
+                    display: flex;
+                    justify-content: space-between;align-items: center;
+                    width: 100%;
+                    color: #9a9a9a;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .mask {
+            position: absolute;right: 0;
+            bottom: 0;
+            left: 0;top:0;
+            background: rgba(0,0,0,0.5);
+            z-index: 50;
+        }
+
+
+          .example-enter {
+            opacity: 0.01;
+          }
+          
+          .example-enter.example-enter-active {
+            opacity: 1;
+            transition: opacity 500ms ease-in;
+          }
+          
+          .example-leave {
+            opacity: 1;
+          }
+          
+          .example-leave.example-leave-active {
+            opacity: 0.01;
+            transition: opacity 300ms ease-in;
+          }
+
+    }
+
+    
+}

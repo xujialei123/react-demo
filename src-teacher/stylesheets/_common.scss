@@ -1,0 +1,61 @@
+
+
+.animated {
+    animation-duration: 0.5s;
+}
+
+html {
+    background: #f2f2f2;
+}
+.main-box {
+    padding-top: 49px;
+    
+}
+
+.pick-box {
+    padding: 15px;
+    height: 300px;
+    padding-bottom: 62px;
+
+    .box-count {
+        border-top: 1px solid #f2f2f2;
+        margin: 0 10px;
+        text-align: left;
+        .count-title {
+            margin: 12px 0 4px;
+            font-size: 14px;
+        }
+
+        .count-body {
+            margin: 8px 0;
+
+            span {
+                line-height: 28px;
+                float: left;
+                height: 28px;
+                color: #000;
+                width: 40px;
+                text-align: center;
+                border: 1px solid rgba(0,0,0,.4);
+            }
+            .icon {
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            .left {
+                border-right: none;
+                border-bottom-left-radius: 2px;
+                border-top-left-radius: 2px;
+            }
+
+            .right {
+                border-left: none;
+                border-bottom-right-radius: 2px;
+                border-top-right-radius: 2px;
+            }
+            
+        }
+
+    }
+}
