@@ -1,9 +1,0 @@
-
-
-export const SET_BIG_DATA = 'SET_BIG_DATA'
-export const INCRE_GOODS_LIST = 'INCRE_GOODS_LIST'
-export const SET_DETAIL_DATA = 'SET_DETAIL_DATA'
-
-export const CONTROL_CAR_DATA = 'CONTROL_CAR_DATA'
-
-export const SET_USERINFO = 'SET_USERINFO'
